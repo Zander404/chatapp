@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             mAuth.signOut()
             val intent = Intent(this@MainActivity, Login::class.java)
             finish()
+            startActivity(intent)
             return  true
         }
         return true

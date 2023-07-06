@@ -36,6 +36,6 @@ class UserAdapter(val context: Context, val userList: ArrayList<User> ): Recycle
     }
 
     class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val textName = itemView.findViewById<TextView>(R.id.txt_name)
+        val textName = itemView.findViewById<TextView>(R.id.username_texto)
     }
 }
